@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <title>Atividade BCC</title>
+</head>
+
+<body class="min-h-screen bg-gradient-to-br from-purple-900 via-red-700 to-red-900">
+
+    <!-- CONTAINER PRINCIPAL -->
+    <main class="mx-auto max-w-6xl px-6 py-12">
+
+        <!-- CABEÇALHO -->
+        <header class="mb-12 text-center">
+
+            <span class="inline-block rounded-full bg-purple-500/20 px-4 py-1
+                         text-sm font-medium text-purple-300">
+                BCC • Atividade
+            </span>
+
+                <h1 class="mt-4 text-4xl font-bold tracking-tight text-pink-300
+                        sm:text-5xl lg:text-6xl">
+                    Atividade BCC
+                </h1>
+
+            <p class="mx-auto mt-4 max-w-2xl text-base leading-7 text-slate-300
+                      sm:text-lg">
+                Esta é uma simples página HTML desenvolvida para a atividade
+                de BCC utilizando Tailwind CSS.
+            </p>
+
+        </header>
+
+
+        <!-- GALERIA -->
+        <section>
+
+            <div class="mb-6 flex items-center justify-between">
+
+                <h2 class="text-2xl font-semibold text-white">
+                    Galeria
+                </h2>
+
+                <span class="text-sm text-slate-400">
+                    4 imagens
+                </span>
+
+            </div>
+
+
+            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+
+
+                <!-- CARD 1 -->
+                <div class="group overflow-hidden rounded-2xl border border-white/10
+                            bg-white/5 shadow-xl backdrop-blur-sm
+                            transition duration-300 hover:-translate-y-2
+                            hover:border-purple-400/50 hover:shadow-purple-900/30">
+
+                    <div class="aspect-square overflow-hidden">
+
+                        <img
+                            src="img/makeL.jpeg"
+                            alt="Imagem 1"
+                            class="h-full w-full object-cover transition duration-500
+                                   group-hover:scale-110">
+
+                    </div>
+
+                    <div class="p-4">
+
+                        <h3 class="font-semibold text-white">
+                            Imagem 01
+                        </h3>
+
+                        <p class="mt-1 text-sm text-slate-400">
+                            Primeira imagem da galeria.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 2 -->
+                <div class="group overflow-hidden rounded-2xl border border-white/10
+                            bg-white/5 shadow-xl backdrop-blur-sm
+                            transition duration-300 hover:-translate-y-2
+                            hover:border-purple-400/50 hover:shadow-purple-900/30">
+
+                    <div class="aspect-square overflow-hidden">
+
+                        <img
+                            src="img/makeL.jpeg"
+                            alt="Imagem 2"
+                            class="h-full w-full object-cover transition duration-500
+                                   group-hover:scale-110">
+
+                    </div>
+
+                    <div class="p-4">
+
+                        <h3 class="font-semibold text-white">
+                            Imagem 02
+                        </h3>
+
+                        <p class="mt-1 text-sm text-slate-400">
+                            Segunda imagem da galeria.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 3 -->
+                <div class="group overflow-hidden rounded-2xl border border-white/10
+                            bg-white/5 shadow-xl backdrop-blur-sm
+                            transition duration-300 hover:-translate-y-2
+                            hover:border-purple-400/50 hover:shadow-purple-900/30">
+
+                    <div class="aspect-square overflow-hidden">
+
+                        <img
+                            src="img/makeL.jpeg"
+                            alt="Imagem 3"
+                            class="h-full w-full object-cover transition duration-500
+                                   group-hover:scale-110">
+
+                    </div>
+
+                    <div class="p-4">
+
+                        <h3 class="font-semibold text-white">
+                            Imagem 03
+                        </h3>
+
+                        <p class="mt-1 text-sm text-slate-400">
+                            Terceira imagem da galeria.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CARD 4 -->
+                <div class="group overflow-hidden rounded-2xl border border-white/10
+                            bg-white/5 shadow-xl backdrop-blur-sm
+                            transition duration-300 hover:-translate-y-2
+                            hover:border-purple-400/50 hover:shadow-purple-900/30">
+
+                    <div class="aspect-square overflow-hidden">
+
+                        <img
+                            src="img/makeL.jpeg"
+                            alt="Imagem 4"
+                            class="h-full w-full object-cover transition duration-500
+                                   group-hover:scale-110">
+
+                    </div>
+
+                    <div class="p-4">
+
+                        <h3 class="font-semibold text-white">
+                            Imagem 04
+                        </h3>
+
+                        <p class="mt-1 text-sm text-slate-400">
+                            Quarta imagem da galeria.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- BOTÃO -->
+        <div class="mt-12 text-center">
+
+            <a
+                href="img/lula.jpeg"
+                target="_blank"
+                class="inline-block rounded-xl bg-red-600 px-6 py-3
+                    font-semibold text-white shadow-lg
+                    transition duration-300
+                    hover:bg-red-500 hover:shadow-red-500/30">
+
+                Ver mais
+
+            </a>
+
+        </div>
+
+
+        <!-- RODAPÉ -->
+        <footer class="mt-16 border-t border-white/10 pt-6 text-center">
+
+            <p class="text-sm text-slate-500">
+                Atividade BCC • Desenvolvido com HTML + Tailwind CSS
+            </p>
+
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
